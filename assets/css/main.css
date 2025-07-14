@@ -495,7 +495,7 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   
-  color: black; /* <- CAMBIO HECHO */
+  color: #ffffff; /* <- CAMBIO HECHO */
   background-color: #009fe3; /* tu color celeste */
   font-size: 14px;
   padding-bottom: 50px;
@@ -520,7 +520,7 @@ h6 {
 }
 
 .footer .footer-about .logo span {
-  color: black;
+  color: #ffffff;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -541,13 +541,13 @@ h6 {
   border-radius: 50%;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
   font-size: 16px;
-  color: black;
+  color: #ffffff;
   margin-right: 10px;
   transition: 0.3s;
 }
 
 .footer .social-links a:hover {
-   color: black;
+   color: #ffffff;
   border-color: var(--accent-color);
 }
 
@@ -586,12 +586,12 @@ h6 {
 
 .footer .footer-links ul a {
 
-  color: black;
+  color: #ffffff;
 }
 
 
 .footer .footer-links ul a:hover {
-  color: black;
+  color: #ffffff;
 }
 
 .footer .footer-contact p {
@@ -601,7 +601,7 @@ h6 {
 .footer .copyright {
   padding-top: 25px;
   padding-bottom: 25px;
- color: black;
+ color: #ffffff;
 }
 
 .footer .copyright p {
@@ -794,7 +794,7 @@ section,
   padding: 120px 0 60px 0;
   display: flex;
   align-items: center;
- background-image: url(https://github.com/guadadisanto/Atornillador-inal-mbrico-Bosch/blob/main/assets/img/final14.png?raw=true);
+ background-image: url(https://github.com/guadadisanto/Atornillador-inal-mbrico-Bosch/blob/main/assets/img/portadafinallunes.png?raw=true);
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -841,8 +841,10 @@ background-size: cover;
   font-size: 16px;
   letter-spacing: 0.5px;
   display: inline-block;
-  padding: 8px 30px;
-  border-radius: 999px;
+  padding: 12px 30px;
+  margin-top: 306px; /* ajustá este número según lo que quieras */
+
+  border-radius: 1137px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s;
   border: 1px solid rgba(255, 255, 255, 0.4);
   text-align: center;
@@ -923,7 +925,7 @@ background-size: cover;
 
 
 .tecnologia {
-  background-image: url('https://github.com/guadadisanto/Atornillador-inal-mbrico-Bosch/blob/main/assets/img/final18.png?raw=true');
+  background-image: url('https://github.com/guadadisanto/Atornillador-inal-mbrico-Bosch/blob/main/assets/img/seccionfinal.png?raw=true');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -937,7 +939,7 @@ background-size: cover;
 
 
 .about {
-  background-image: url('https://github.com/guadadisanto/Atornillador-inal-mbrico-Bosch/blob/main/assets/img/final16.png?raw=true');
+  background-image: url('https://github.com/guadadisanto/Atornillador-inal-mbrico-Bosch/blob/main/assets/img/a.png?raw=true');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1073,6 +1075,10 @@ background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  
+
+
   transition: ease-in-out 0.3s;
 }
 
@@ -1120,6 +1126,25 @@ background-size: cover;
 .services .service-item:hover .icon i {
   color: var(--contrast-color);
 }
+
+
+
+
+
+
+
+.service-item .title .stretched-link {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+.service-item .stretched-link:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
 
 /*--------------------------------------------------------------
 # Features Section
@@ -1259,12 +1284,6 @@ background-size: cover;
 
 
 
-
-
-
-
-
-
 .portfolio .portfolio-filters li {
   cursor: pointer;
   display: inline-block;
@@ -1341,7 +1360,7 @@ background-size: cover;
 
 .portfolio .portfolio-content .portfolio-info p {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
-  font-size: 14px;
+  font-size: 41px;
   margin-bottom: 0;
   padding-right: 50px;
 }
@@ -1550,6 +1569,25 @@ background-size: cover;
   color: var(--accent-color);
 }
 
+
+/*--------------------------------------------------------------
+# tecnologia Section
+--------------------------------------------------------------*/
+.tecnologia {
+  background-image: url('https://github.com/guadadisanto/Atornillador-inal-mbrico-Bosch/blob/main/assets/img/caotc.png?raw=true');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll; /* 👈 Este es el cambio importante */
+  position: relative;
+}
+
+
+
+
+
+
+
 /*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
@@ -1573,7 +1611,7 @@ background-size: cover;
 
 
 .team {
-  background-image: url('https://github.com/guadadisanto/Atornillador-inal-mbrico-Bosch/blob/main/assets/img/final17.png?raw=true');
+  background-image: url('https://github.com/guadadisanto/Atornillador-inal-mbrico-Bosch/blob/main/assets/img/fa.png?raw=true');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1768,7 +1806,7 @@ background-size: cover;
 .portfolio-details .swiper-button-next:after {
   color: rgba(255, 255, 255, 0.8);
   background-color: rgba(0, 0, 0, 0.15);
-  font-size: 24px;
+  font-size: 12px;
   border-radius: 50%;
   width: 48px;
   height: 48px;
@@ -1783,7 +1821,7 @@ background-size: cover;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-@media (max-width: 575px) {
+@media (max-width: 722px) {
 
   .portfolio-details .swiper-button-prev,
   .portfolio-details .swiper-button-next {
@@ -1808,9 +1846,9 @@ background-size: cover;
 }
 
 .portfolio-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 535;
+  margin-bottom: 65px;
   padding-bottom: 20px;
   position: relative;
 }
@@ -1819,7 +1857,7 @@ background-size: cover;
   content: "";
   position: absolute;
   display: block;
-  width: 50px;
+  width: 14px;
   height: 3px;
   background: var(--accent-color);
   left: 0;
@@ -1858,7 +1896,7 @@ background-size: cover;
 }
 
 .portfolio-details .portfolio-description h2 {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -1883,7 +1921,7 @@ background-size: cover;
 }
 
 .portfolio-details .portfolio-description .testimonial-item h3 {
-  font-size: 18px;
+  font-size: 45px;
   font-weight: bold;
   margin: 15px 0 5px 0;
   padding-top: 20px;
@@ -1898,7 +1936,7 @@ background-size: cover;
 .portfolio-details .portfolio-description .testimonial-item .quote-icon-left,
 .portfolio-details .portfolio-description .testimonial-item .quote-icon-right {
   color: color-mix(in srgb, var(--accent-color), transparent 50%);
-  font-size: 26px;
+  font-size: 58px;
   line-height: 0;
 }
 
